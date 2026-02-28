@@ -1,5 +1,6 @@
 
-<img width="1536" height="1024" alt="ChatGPT Image 28 de fev  de 2026, 13_15_45" src="https://github.com/user-attachments/assets/cb97a682-000f-40a8-b1be-0e7736f0a45b" />
+<img width="1536" height="1024" alt="ChatGPT Image 28 de fev  de 2026, 13_42_08" src="https://github.com/user-attachments/assets/bf190a94-ca69-438e-ac64-e510dba9b93d" />
+
 
 
 # 👋 Olá, eu sou o Paulo
