@@ -1,4 +1,5 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:326CE5&height=200&section=header&text=Paulo%20Henrique%20Barros&fontSize=35&fontColor=ffffff&animation=fadeIn" width="100%"/>
+
+<img width="1536" height="1024" alt="ChatGPT Image 23 de fev  de 2026, 13_19_58" src="https://github.com/user-attachments/assets/49a78901-9377-4c7f-a894-0fab9876dfa3" />
 
 # 👋 Olá, eu sou o Paulo
 
