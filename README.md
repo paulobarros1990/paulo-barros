@@ -1,98 +1,75 @@
-# 👨‍💻 Paulo Henrique Barros
+# Olá, eu sou o Paulo 👋
 
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-000000?style=for-the-badge&logo=linux&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+DevOps & Cloud Engineer focado em Kubernetes, GitOps e DevSecOps para ambientes enterprise.
 
 ---
 
-## 🚀 DevOps & Cloud Engineer
+## 🚀 Sobre mim
 
-Engenheiro DevOps especializado em construção de plataformas Kubernetes com modelo GitOps e DevSecOps integrado para ambientes corporativos.
+Engenheiro DevOps com experiência na construção de plataformas Kubernetes altamente disponíveis, pipelines CI/CD desacopladas do deploy e modelo GitOps com governança via Git.
 
-Foco em:
+Transformo requisitos complexos em ambientes:
 
-- Arquitetura Kubernetes HA
-- CI/CD desacoplado do deploy
-- Promotion controlada (dev → homol → prod)
-- Segurança integrada na pipeline
-- Observabilidade orientada a ação
+- Escaláveis
+- Determinísticos
+- Auditáveis
+- Automatizados ponta a ponta
 
 ---
 
-## 🏗 Arquitetura GitOps Enterprise
+## 🛠 Tech Stack & Ferramentas
+
+| Categoria | Tecnologias |
+|------------|-------------|
+| Orquestração | Kubernetes, RKE2, Rancher |
+| GitOps | ArgoCD, Helm |
+| CI/CD | GitHub Actions |
+| Containers | Docker, Harbor |
+| DevSecOps | SonarQube, Trivy, OWASP ZAP |
+| Observabilidade | Prometheus, Grafana, Loki |
+| Cloud | AWS |
+| Infraestrutura | Linux, IaC |
+
+---
+
+## 🏗 Arquitetura GitOps
 
 ```mermaid
 flowchart LR
     Dev[Developer Commit] --> CI[GitHub Actions]
-    CI --> Registry[Harbor Registry]
-    Registry --> GitOps[GitOps Repository]
+    CI --> Registry[Harbor]
+    Registry --> GitOps[GitOps Repo]
     GitOps --> ArgoCD
-    ArgoCD --> Kubernetes Cluster
+    ArgoCD --> Kubernetes
+```
 
+---
 
-✔ Deploy determinístico
-✔ Imagem imutável
-✔ Sem rebuild entre ambientes
-✔ Health check automatizado
-✔ Força de sync controlada
+## 🔋 Projeto Destaque – ChargePlus
 
-🔐 DevSecOps Integrado
+Plataforma completa baseada em GitOps com:
 
-SAST
+- Promotion controlada (dev → homol → prod)
+- Imagem imutável
+- Post-deploy validation
+- Pipeline versionada
 
-SCA
+🔗 Aplicação  
+https://github.com/infratrust-ti/chargeplus  
 
-DAST
+🔗 GitOps  
+https://github.com/infratrust-ti/gitops_rke2  
 
-Trivy Container Scan
+---
 
-SonarQube Quality Gate
+## 📊 Foco Atual
 
-Policy as Code
+- Evolução de pipeline enterprise
+- Segurança shift-left
+- Governança via Git
+- Automação de infraestrutura
 
-Segurança implementada no modelo shift-left.
+---
 
-📊 Observabilidade & Operação
-
-Prometheus (métricas)
-
-Grafana (dashboards)
-
-Loki (logs)
-
-Alertas acionáveis (sem alert fatigue)
-
-🔋 Projeto Destaque – ChargePlus
-
-Plataforma completa baseada em GitOps:
-
-Helm multi-environment
-
-Post-deploy validation
-
-Git como única fonte da verdade
-
-Pipeline enterprise versionada
-
-Aplicação:
-https://github.com/infratrust-ti/chargeplus
-
-GitOps:
-https://github.com/infratrust-ti/gitops_rke2
-
-🎯 Diferencial
-
-Mentalidade de plataforma, não apenas deploy.
-
-Construo ambientes:
-
-Auditáveis
-
-Escaláveis
-
-Governáveis
-
-Automatizados ponta a ponta
+📍 Brasil  
+💼 Aberto a desafios técnicos e oportunidades em DevOps / Cloud
