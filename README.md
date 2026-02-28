@@ -1,6 +1,8 @@
-# Olá, eu sou o Paulo 👋
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:326CE5&height=200&section=header&text=Paulo%20Henrique%20Barros&fontSize=35&fontColor=ffffff&animation=fadeIn" width="100%"/>
 
-DevOps & Cloud Engineer focado em Kubernetes, GitOps e DevSecOps para ambientes enterprise.
+# 👋 Olá, eu sou o Paulo
+
+DevOps & Cloud Engineer especializado em Kubernetes, GitOps e DevSecOps para ambientes enterprise.
 
 ---
 
@@ -10,10 +12,10 @@ Engenheiro DevOps com experiência na construção de plataformas Kubernetes alt
 
 Transformo requisitos complexos em ambientes:
 
-- Escaláveis
-- Determinísticos
-- Auditáveis
-- Automatizados ponta a ponta
+- Escaláveis  
+- Determinísticos  
+- Auditáveis  
+- Automatizados ponta a ponta  
 
 ---
 
@@ -21,14 +23,16 @@ Transformo requisitos complexos em ambientes:
 
 | Categoria | Tecnologias |
 |------------|-------------|
-| Orquestração | Kubernetes, RKE2, Rancher |
-| GitOps | ArgoCD, Helm |
+| Orquestração & Cluster | Kubernetes, RKE2, Rancher |
+| GitOps & Deploy | ArgoCD, Helm |
 | CI/CD | GitHub Actions |
-| Containers | Docker, Harbor |
+| Containers & Registry | Docker, Harbor |
+| Infraestrutura como Código | Terraform, Ansible |
+| Sistemas & Automação | Linux, Bash |
+| Linguagens | Python |
 | DevSecOps | SonarQube, Trivy, OWASP ZAP |
 | Observabilidade | Prometheus, Grafana, Loki |
 | Cloud | AWS |
-| Infraestrutura | Linux, IaC |
 
 ---
 
@@ -37,39 +41,7 @@ Transformo requisitos complexos em ambientes:
 ```mermaid
 flowchart LR
     Dev[Developer Commit] --> CI[GitHub Actions]
-    CI --> Registry[Harbor]
-    Registry --> GitOps[GitOps Repo]
+    CI --> Registry[Harbor Registry]
+    Registry --> GitOps[GitOps Repository]
     GitOps --> ArgoCD
-    ArgoCD --> Kubernetes
-```
-
----
-
-## 🔋 Projeto Destaque – ChargePlus
-
-Plataforma completa baseada em GitOps com:
-
-- Promotion controlada (dev → homol → prod)
-- Imagem imutável
-- Post-deploy validation
-- Pipeline versionada
-
-🔗 Aplicação  
-https://github.com/infratrust-ti/chargeplus  
-
-🔗 GitOps  
-https://github.com/infratrust-ti/gitops_rke2  
-
----
-
-## 📊 Foco Atual
-
-- Evolução de pipeline enterprise
-- Segurança shift-left
-- Governança via Git
-- Automação de infraestrutura
-
----
-
-📍 Brasil  
-💼 Aberto a desafios técnicos e oportunidades em DevOps / Cloud
+    ArgoCD --> Kubernetes[Cluster Kubernetes]
